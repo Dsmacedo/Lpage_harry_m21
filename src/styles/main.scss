@@ -1,7 +1,6 @@
 @use 'variaveis';
 @use 'hero';
 @use 'shows';
-@use 'plans';
 @use 'available-devices';
 @use 'faq';
 @use 'footer';
@@ -149,6 +148,7 @@ body {
 
     img {
         max-width: 100%;
+        opacity: 0.5;
     }
 
     &__text_container {

@@ -1,14 +1,15 @@
 @use 'variaveis';
 
 .hero {
-    padding: 5.6vw;
-    min-height: 80vh;
-    background-image: url(../images/hero_desktop.jpeg) ;
+   
+    background-image: url(/harry_poter_img/p1.jpg) ;
+    opacity: 0.7;
     text-align: center;
     background-size: cover;
+    
 
     @media (max-width: 768px) {
-        background-image: url(../images/hero_celular.jpeg);
+        background-image: url(/harry_poter_img/p1.jpg);
         padding-top: calc(50vw + 25px);
         background-size: contain;
         background-repeat: no-repeat;
@@ -26,6 +27,12 @@
         &__branding {
             max-width: 320px;
             margin: 0 auto 38px;
+
+            img {
+                margin-top: 20px;
+                width: 40%;
+                height: auto;
+            }
 
             @media (max-width: 768px) {
                 max-width: 180px;
